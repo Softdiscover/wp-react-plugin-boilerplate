@@ -170,7 +170,7 @@ Use this project as a starter for your [modular][modularity] WordPress plugin!
     [`docker-machine env`].
     
     ```bash
-    docker compose up wp_dev 
+    docker compose up -d wp_dev 
     ```
 
    This will bring up only the dev environment and its dependencies, which right now is
@@ -337,7 +337,7 @@ docker compose exec wp_dev bash
 once inside, go to plugin directory: 
 
 ```bash
-/var/www/html/wp-content/plugins/plugin
+cd /var/www/html/wp-content/plugins/plugin
 ```
 
 then install wordpress environment
